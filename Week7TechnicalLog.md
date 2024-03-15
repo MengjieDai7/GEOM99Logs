@@ -72,16 +72,38 @@ Go to console.cloud.google.com and log in
     5a. Select IPv4 Ranges and enter personal IP
 6. Set TCP Port to 6443,6080 and create
     
+## Setting a Windows Firewall Rule to allow ArcGIS Server Ports
+
+#  Log into Remote Desktop
+1. Click start menu on computer
+2. Select Windows Defender firewall with advanced Security Option
+3. Clikc on in bound rules (left side) and click on new rule
+4. Select Port then Next
+5. Select TCP and enter in ports: 6443,6080
+6. Allow Connect and next
+7. Ensure domain, private, and public are selected. Then click next
+8. Provide a consistent name (e.g. ArcGIS Server Admin Ports)
 
 
+## Start an existing/shut down VM on GCP
+1. Open GCP go to the hamburger select computer engine, then VM instances
+2. If the status circle is grey = not running, green = running
+3. Click the 3 vertical dotes on the left handside of the column. Select Start/Resume or Stop
+     NOTE! Each time you start VM a new external IP is created. Connections in ArcGIS Pro or Bookmarks saved on web broswer need to be updated
+     External IP can be found in the column
+     Give ArcGIS Server time
 
-
-
-
-
-
-
-
+## Remote Desktop to VM Desktop 
+1. Find External IP. If need help Refer to step 3 in Start an existing/shut down VM on GCP
+2. On YOUR windows desktop start remote desktop connection tool.
+    2a. Start bbutton and search Remote Desktop Connection Tool
+    2b. Enter in IP address of virtual machine. Then add :444 to the end for port connection
+         EXTERNAL IP ADDRESS CHANGES EVERYTIME !!!
+3. Enter in system credentials. Username and password.
+    username = student, password what you recorded on notepad++
+    If you forget the password go to Set Passward step above
+5. 
+   
 
 
 
