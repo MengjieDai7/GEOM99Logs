@@ -42,7 +42,8 @@ Go to console.cloud.google.com and log in
 1. Under connect column select the down arrow option beside RDP
 2. Click Set new windows password
 3. Enter in student as username and click set
-4. Password will be shown. Make sure to save the password!! Best practice is to save on Notepad++ to ensure formating 
+4. Password will be shown. Make sure to save the password!! Best practice is to save on Notepad++ to ensure formating
+   If your forget the password you can rerun this step
 
 # Set up Fire Wall Rules 
 1. Click Set up Firewall rules in VM Instances
@@ -52,12 +53,39 @@ Go to console.cloud.google.com and log in
 4. Under targets select all instances in the network
 5. Under source filter select IPv4 ranges
     5a. Select IPv4 Ranges
+    Here are the IP Options 
         Fleming College computer: 142.237.0.0/16
         Working from home: An example is 24.242.25.53 (just google whatsmyip to see yours).
               Should never start with 192.168.x.x or 10.x.x.x
         Any computer no restrictions 0.0.0.0/0
    Can come back to change this anytime!
-6. Set TCP Port to 444 and click create
+7. Set TCP Port to 444 and click create
 
 ## Setting a GCP Firewall Rule to allow ArcGIS Server Management Ports
-   
+
+# Set up Fire Wall Rule to allow for ArcGIS Server
+1. In the google cloud hamburger go to networking -> VPC Networl.
+2. Click Firewall, then Create Firewall rule   
+3. Name the rule (e.g. arcgisserveradmin )
+4. Under targets select all instances in the network
+5. Under source filter select IPv4 ranges
+    5a. Select IPv4 Ranges and enter personal IP
+6. Set TCP Port to 6443,6080 and create
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
