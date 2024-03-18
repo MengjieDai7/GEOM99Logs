@@ -95,14 +95,41 @@ Go to console.cloud.google.com and log in
 
 ## Remote Desktop to VM Desktop 
 1. Find External IP. If need help Refer to step 3 in Start an existing/shut down VM on GCP
-2. On YOUR windows desktop start remote desktop connection tool.
+2. On YOUR windows desktop start remote desktop connection tool
     2a. Start bbutton and search Remote Desktop Connection Tool
     2b. Enter in IP address of virtual machine. Then add :444 to the end for port connection
          EXTERNAL IP ADDRESS CHANGES EVERYTIME !!!
 3. Enter in system credentials. Username and password.
-    username = student, password what you recorded on notepad++
-    If you forget the password go to Set Passward step above
-5. 
+    3a. Click more choices if you are only getting password prompt. Then select different account
+    3b. username = student, password what you recorded on notepad++
+            If you forget the password go to Set Passward step above
+    3c. Click yes on the prompt
+         Should see remote desktop screen
+
+## How to Turn off Remote Desktop 
+Running VM costs $$
+Two options to turn off!
+1. Turn off using a Windows Desktop Console
+   Like turning off your own computer
+     1a. Go to start menu in VM and lcokc power icon
+     2a. Shut down
+Note: Disconnecting does not = shutting of remote desktop. It is like tunring off your monitor machine is still running.
+Signing out is does not shut off the machine either.
+
+2. Turn of using GCP Compute Engine Console (BEST WAY)
+    2a. Open GCP VM instances console
+         Hamburger -> compute engine -> VM Instances
+    2b. Locate the running VM instance. Will be green!
+    2c. Click on ellipsis on right hand side and select stop
+Give it time and refresh page to check that it is shut off. Button is no longer green.
+
+## Open ArcGIS Server REST Service directory 
+Running server allows you to connect web browser on your computer to ArcGIS Server REST endpoint
+Must use the external IP from your VM (Changes everytime!)
+1. Open webroswer
+2. Go to https://YOURIPNUMBER/arcgis/rest/services replace with your external IP number
+3. Accept the risk prompts
+Directed to ArcGIS REST Services Directory 
    
 
 
