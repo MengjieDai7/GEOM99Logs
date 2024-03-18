@@ -23,13 +23,13 @@ Go to console.cloud.google.com and log in
 1. Click on Create Instance (one of the headers)
 2. Provide a memoriable and appropriate name (e.g. arcgisserver)
 3. Go to Boot Disk Click on Change
-      Most images are linux based because it is free but we are using windows since ethat is familiar. It will require a premium charge!
-     3a. Use custom image
-     3b. Change the source folder
-             This is because we will be using Shawn's project so it is not in your own folder
-     3c. Select Shawn's ArcGIS Server
-     3d. Select the image (in this case it is geom99-2024-v1)
-             The size of drive will be 50gb
+	Most images are linux based because it is free but we are using windows since ethat is familiar. It will require a premium charge!
+	3a. Use custom image
+	3b. Change the source folder
+		This is because we will be using Shawn's project so it is not in your own folder
+	3c. Select Shawn's ArcGIS Server
+	3d. Select the image (in this case it is geom99-2024-v1)
+		The size of drive will be 50gb
      Once you click select the cost estimate will change to ~$60.
 5. Fire Wall Options. Select both Allow HTTP and Allow HTTPS traffic
      So you can use a webserver 
