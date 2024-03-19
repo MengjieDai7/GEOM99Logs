@@ -165,17 +165,20 @@ Directed to ArcGIS REST Services Directory
 2. Go to ArcGIS Server
 	1. Go to https://YOURIPNUMBER:6443/arcgis/rest/services replace with your external IP number
 	1. Check Server is running
-3. Open ArcGIS Pro
-4. Under Insert tab click on server and new arcgis server
+3. Sign into VM to move shapefile of interest into the correction location. Steps to sign into VM are from this step 
+Remote Desktop to VM Desktop located above.
+	1. In this case move Canada shp folder into c:\gisworkspace\
+4. Open ArcGIS Pro
+5. Under Insert tab click on server and new arcgis server
 	1. Server URL:  https://YOURIPNUMBER:6443/arcgis   replace with your external IP number. Port number is to the GIS server
     	1. Username and Password
-5. Catalog Panel. Go to Server select and left click to publish. Select Map Service 
-6. Fill out Publish Map Service Tool. Unique name!
+6. Catalog Panel. Go to Server select and left click to publish. Select Map Service 
+7. Fill out Publish Map Service Tool. Unique name!
 	1. Fix the errors
 	1. Fix the warning that says 24011: Data source is not registered with the server and data will be copied to the server. 
 	1. Register Data to path c:\gisworkspace\canada. Click Create
-7. Pubish Map 
-8. Check on Manager https://EXTERNALIP:6443/arcgis/manager/
-9. Check on Rest Services https://EXTERNALIP:6443/arcgis/rest/services/
+8. Pubish Map 
+9. Check on Manager https://EXTERNALIP:6443/arcgis/manager/
+10. Check on Rest Services https://EXTERNALIP:6443/arcgis/rest/services/
 
 
