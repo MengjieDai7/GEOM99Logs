@@ -29,31 +29,33 @@ help from this ESRI video https://www.youtube.com/watch?v=hywR1CzyKNo and https:
    1. Keep Default Folder location
    1. Provide Output Name (e.g. TorontoTest)
 7. Configure map, layers, and rules
+   
    1. Update map data sources. When clicking find and replace it will appear on the right side. Drag it out.
 
-![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S2.6.png)
-When clicking find and replace it will appear on the right side. Drag it out.
+   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S2.6.png)
+
+   When clicking find and replace it will appear on the right side. Drag it out.
 
    1. Add and mod fields (as needed)
 
-![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S2.7.png)
+   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S2.7.png)
 
    1. Update feature templates (as needed)
 
-![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S2.8.png) 
+   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S2.8.png) 
 
    1. Configure Attribtue rules (as needed)
 
-![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S2.9.png)
+   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S2.9.png)
 
    1. Update database sequences
 
-![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S2.91.png)
+   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S2.91.png)
 
-9. Go through load Data steps.
+8. Go through load Data steps.
    1. Disable attribute rules first. For Address Point and Site address layers
    
-![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S3.png)
+   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S3.png)
    1. Load your data
       
-![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S4.png)
+   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S4.png)
