@@ -5,6 +5,8 @@ Test Data: https://open.toronto.ca/dataset/address-points-municipal-toronto-one-
 Address Points from Open Source Toronto 
 
 ### Testing adding in known addresses 
+help from this link [Youtube Video ESRI]([https://www.google.com](https://www.youtube.com/watch?v=hywR1CzyKNo))
 1. Download Address Data Management Zip 
 2. Upzip open the aprx
    ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S1.png)
+3. 
