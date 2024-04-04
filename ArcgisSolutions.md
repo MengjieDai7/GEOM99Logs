@@ -56,6 +56,21 @@ help from this ESRI video https://www.youtube.com/watch?v=hywR1CzyKNo and https:
    1. Disable attribute rules first. For Address Point and Site address layers
    
    ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S3.png)
-   1. Load your data
+   1. Look at your data layesr.In this case the Toronto Address Points shapefile the field with the data full name is ADDRESS37. And on the Site Address shapefile the field with the full name is called Full Address. 
       
    ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S4.png)
+   1. Load Data.  Use the Field mapping tools if schema is different.
+  
+   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S5.png)
+
+   Ran into problems here. There was an error but the geometry type of both shapefiles are the same. 
+     
+   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S6.png)
+
+   Went onto an ESRI form https://community.esri.com/t5/arcgis-pro-questions/merge-error-of-different-data-type-but-data-types/td-p/1012686
+   Some of the solutions suggested recreating the file datasets to fix the problem. I played around with the different field types to examine different 
+   combinations. 
+   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S7.png)
+
+9. Conclusion
+While there is a lot of utilty in ArcGIS Solutions and it creates a great product for people to explore and deploy. After playing around with the tasks and the existing structure of this solution, I believe it is too out of scope for our project. Our project is to find a way to document hidden address from people on the ground who might come across one. There is no need to use the Address Data Management because the municapities would already have their own system in place for address data management we are not replacing their system. Instead we are simply provided updated information. 
