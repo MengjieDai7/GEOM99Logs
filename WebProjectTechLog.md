@@ -1,5 +1,5 @@
 
-### ArcGIS Solutions 
+#### ArcGIS Solutions 
 Deploy Address Data Management 
 Want to test the ability to add new hidden addresses from surveys to existing files
 
@@ -73,4 +73,13 @@ help from this ESRI video https://www.youtube.com/watch?v=hywR1CzyKNo and https:
    ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S7.png)
 
 9. Conclusion
-While there is a lot of utilty in ArcGIS Solutions and it creates a great product for people to explore and deploy. After playing around with the tasks and the existing structure of this solution, I believe it is too out of scope for our project. Our project is to find a way to document hidden address from people on the ground who might come across one. There is no need to use the Address Data Management because the municapities would already have their own system in place for address data management we are not replacing their system. Instead we are simply provided updated information. 
+While there is a lot of utilty in ArcGIS Solutions and it creates a great product for people to explore and deploy. After playing around with the tasks and the existing structure of this solution, I believe it is too out of scope for our project. Our project is to find a way to document hidden address from people on the ground who might come across one. There is no need to use the Address Data Management because the municapities would already have their own system in place for address data management we are not replacing their system. Instead we are simply provided updated information.
+
+
+#### Survey 123
+Looking at the Pull Function to intergrate an an existing item from AGOL in our case this would be the open source Toronto Address points
+Sources that were used to learn from https://www.youtube.com/watch?v=sSjr8KV1HLc
+
+1. Upload the Toronto Address Points into AGOL. Compress the data into a ZIP and upload
+ ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S8.png)
+Name the layer "KnownPoints"
