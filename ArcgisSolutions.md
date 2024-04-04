@@ -149,6 +149,9 @@ Changed the list_name
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S28.png)
    1. Error for pulldata expression  https://community.esri.com/t5/arcgis-survey123-questions/survey123-data-validation-error/td-p/839703
   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S29.png)
-Error was because of brackets use ${field_name} instead of $(field_name)
+Error was because of brackets use {field_name} instead of (field_name)
+
+9. Errors for Survey Fixed! Now test out Survey.
+   1. Use this as test data 4 Merrill Ave W (this address exists in the database)
 
 
