@@ -106,3 +106,5 @@ Note: Make sure you have the right REST ENDPOINT it should be the URl from the l
 If the App is not downloaded Download the Survey123 App
    1. Open up Survey123 Connect
   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S14.png)
+   1. Create new Standard Template so people can open up in the app & web format
+![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S15.png)
