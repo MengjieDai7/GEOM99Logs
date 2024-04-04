@@ -117,7 +117,9 @@ If the App is not downloaded Download the Survey123 App
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S22.png)
    1. Easy to mis type/write street suffix so include a list for this option. https://www.toronto.ca/wp-content/uploads/2017/11/9783-city-wide_index.pdf
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S23.png)
-   1. Create a full address read only first address field 
+   1. Create a full address read only first address field https://doc.arcgis.com/en/survey123/desktop/create-surveys/xlsformformulas.htm
+   Previous questions must always be referred to in formulas with the format ${field_name}.
+![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S24.png)
 
 7. Property Codes from https://www.mpac.ca/en/PropertyTypes/FindYourPropertyType/Propertycodes
 It is useful to also have user record property code so that people know what to look for when searching for a property
@@ -134,3 +136,7 @@ If an address already exists then it individual should not be able to input a re
 *** Trouble shooting if you are unable to ope xlxs form Survey123 connect go directly to the file path instead. 
   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S21.png)
 
+Explore the pulldata layer options https://doc.arcgis.com/en/survey123/desktop/create-surveys/xlsformformulas.htm#ESRI_SECTION1_BB97985CAFB740EE8AEF99EFD6E238E3
+   1. Pull the data you want from the AGOL layer. Refer back to the Notepad++. Compare the user entered data to the existing dataset. If address already exists there should be a constraint message that appears. 
+  ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S25.png)
+      
