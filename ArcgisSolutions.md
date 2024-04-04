@@ -114,9 +114,15 @@ If the App is not downloaded Download the Survey123 App
 
 5. Property Codes from https://www.mpac.ca/en/PropertyTypes/FindYourPropertyType/Propertycodes
 It is useful to also have user record property code so that people know what to look for when searching for a property
-   1. Create property code options 
+   1. Create property code options
+   
   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S19.png)
+  
   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S20.png)
 
 6. Constrain using pulldata https://community.esri.com/t5/arcgis-survey123-questions/reject-entry-of-specific-text-value/td-p/1049444
 If an address already exists then it individual should not be able to input a response
+
+*** Trouble shooting if you are unable to ope xlxs form Survey123 connect go directly to the file path instead. 
+  ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S21.png)
+
