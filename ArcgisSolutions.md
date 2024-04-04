@@ -140,5 +140,7 @@ Explore the pulldata layer options https://doc.arcgis.com/en/survey123/desktop/c
    1. Pull the data you want from the AGOL layer. Refer back to the Notepad++. Compare the user entered data to the existing dataset. If address already exists there should be a constraint message that appears. 
   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S25.png)
 
-8. Check your survey! Publish and look at results. 
+8. Check your survey! Save your xlxs form and Publish look at results. 
   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S26.png)
+   1. Ran into Error 
+![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S27.png)
