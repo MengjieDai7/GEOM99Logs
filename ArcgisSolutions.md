@@ -153,5 +153,11 @@ Error was because of brackets use {field_name} instead of (field_name)
 
 9. Errors for Survey Fixed! Now test out Survey.
    1. Use this as test data 4 Merrill Ave W (this address exists in the database)
+   1. Result of inputing address
+![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S30.png)
+   1. Change equation to add in a space before the suffix
+![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S31.png)
+Add   "" between the fields in the calcultion. This ensures that there is a space. 
+
 
 
