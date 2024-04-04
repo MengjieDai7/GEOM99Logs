@@ -109,10 +109,17 @@ If the App is not downloaded Download the Survey123 App
   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S14.png)
    1. Create new Standard Template so people can open up in the app & web format
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S15.png)
-   1. Create relevant question.
-  ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S16.png)
+   1. Create relevant question. Geopoint. Collector name. Date/time
+ ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S16.png)
 
-5. Property Codes from https://www.mpac.ca/en/PropertyTypes/FindYourPropertyType/Propertycodes
+5. Address Names Collection Format. The address name pulldata only works if it matches exactly. Look at how the field value is written in AGOL.
+   1. Break up the address so it is easier for individual to record. (Less errors this way).
+![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S22.png)
+   1. Easy to mis type/write street suffix so include a list for this option. https://www.toronto.ca/wp-content/uploads/2017/11/9783-city-wide_index.pdf
+![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S23.png)
+   1. Create a full address read only first address field 
+
+7. Property Codes from https://www.mpac.ca/en/PropertyTypes/FindYourPropertyType/Propertycodes
 It is useful to also have user record property code so that people know what to look for when searching for a property
    1. Create property code options
    
@@ -120,7 +127,8 @@ It is useful to also have user record property code so that people know what to 
   
   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S20.png)
 
-6. Constrain using pulldata https://community.esri.com/t5/arcgis-survey123-questions/reject-entry-of-specific-text-value/td-p/1049444
+
+7. Constrain using pulldata https://community.esri.com/t5/arcgis-survey123-questions/reject-entry-of-specific-text-value/td-p/1049444
 If an address already exists then it individual should not be able to input a response
 
 *** Trouble shooting if you are unable to ope xlxs form Survey123 connect go directly to the file path instead. 
