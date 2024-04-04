@@ -144,3 +144,6 @@ Explore the pulldata layer options https://doc.arcgis.com/en/survey123/desktop/c
   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S26.png)
    1. Ran into Error 
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S27.png)
+   1. Looked at the Error in Row 6 and consulted online blogs https://community.esri.com/t5/arcgis-survey123-questions/error-converting-xlsform/td-p/1125573
+Changed the list_name
+![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S28.png)
