@@ -84,4 +84,25 @@ Sources that were used to learn from https://www.youtube.com/watch?v=sSjr8KV1HLc
    1.  Compress the data into a ZIP and add layer from file. 
  ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S8.png)
  ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S9.png)
-   1. Click Create and add to map 
+   1. Click Create and add to map. Since the Toronto Address points has a lot of data make sure to give it time to load.
+   1. Save the map as Hidden Address Test or another memorial name.
+
+2. Go to REST ENDPOINT of feature layer
+   1. Click on the layer
+ ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S10.png)
+   1. Scroll down on the left hand side copy the URL 
+ ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S11.png)
+   1. Paste the URL into Notepad++ for the time being and save it in a spot that you can easily access
+Note: Make sure you have the right REST ENDPOINT it should be the URl from the layer page
+
+3. Take a look at the Data set up
+   1. Click on Data in the headings
+   1. Click on Check out the Table and Fields
+   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S12.png)
+   1. Note down the fields of relevance into the same Notepad++ file. In this case ADDRESS37 has the full address name so this is the field we want. Alongside the WARD35 and WARD_NA36 field which gave you the ward names.
+   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S13.png)
+
+4. Open up Survey123
+If the App is not downloaded Download the Survey123 App
+   1. Open up Survey123 Connect
+  ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S14.png)
