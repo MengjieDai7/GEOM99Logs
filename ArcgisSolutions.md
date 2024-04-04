@@ -109,3 +109,7 @@ If the App is not downloaded Download the Survey123 App
   ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S14.png)
    1. Create new Standard Template so people can open up in the app & web format
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S15.png)
+   1. Create relevant question.
+  ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S16.png)
+
+
