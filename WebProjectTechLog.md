@@ -80,6 +80,8 @@ While there is a lot of utilty in ArcGIS Solutions and it creates a great produc
 Looking at the Pull Function to intergrate an an existing item from AGOL in our case this would be the open source Toronto Address points
 Sources that were used to learn from https://www.youtube.com/watch?v=sSjr8KV1HLc
 
-1. Upload the Toronto Address Points into AGOL. Compress the data into a ZIP and upload
+1. Upload the Toronto Address Points into AGOL. Create a map.
+   1.  Compress the data into a ZIP and add layer from file. 
  ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S8.png)
-Name the layer "KnownPoints"
+ ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S9.png)
+   1. Click Create and add to map 
