@@ -157,7 +157,10 @@ Error was because of brackets use {field_name} instead of (field_name)
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S30.png)
    1. Change equation to add in a space before the suffix
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S31.png)
-Add   "" between the fields in the calcultion. This ensures that there is a space. 
+Add   "" between the fields in the calcultion. This ensures that there is a space.
+
+10. Getting the constraint to work
+   1. Test out different variations of the code 
 
 
 
