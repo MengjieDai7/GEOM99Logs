@@ -159,7 +159,7 @@ Error was because of brackets use {field_name} instead of (field_name)
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S31.png)
 Add   "" between the fields in the calcultion. This ensures that there is a space.
 
-10. Getting the constraint to work
+10. Getting the survey to acknowledge when a deuplicate data is etnered 
    1. Test out different variations of the code. I did trail & error. Each Time I changed the code I would recheck the survery form to see if it would indicate when an address already existed. 
 
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S32.png)
@@ -171,3 +171,8 @@ Add   "" between the fields in the calcultion. This ensures that there is a spac
 
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S36.png)
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S37.png)
+
+12. Inputing a constraint so that survey rejects duplicate addresses
+![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S38.png)
+![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S39.png)
+
