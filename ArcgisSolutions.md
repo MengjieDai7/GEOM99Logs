@@ -200,5 +200,6 @@ Simply add ! to the equation.
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S47.png)
 
 4. Check that the formula works!
+5. 
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S46.png)
 
