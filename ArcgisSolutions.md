@@ -191,15 +191,14 @@ Add   "" between the fields in the calcultion. This ensures that there is a spac
 PART 2! Use the same survey but make minor change so that the survey only takes in existing addresses. 
 
 1. Save the previous surveys xlxs file.
-2. Upload the xlxs file into a new survey.
-3. 
+2. Upload the xlxs file into a new survey. 
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S45.png)
 
-4. In the formulations to make it so that instead of looking for a full address field that is blank. You want a not blank one which signals that an existing address is there.
+3. In the formulations to make it so that instead of looking for a full address field that is blank. You want a not blank one which signals that an existing address is there.
 Simply add ! to the equation.
 
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S47.png)
 
-3. Check that the formula works!
+4. Check that the formula works!
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S46.png)
 
