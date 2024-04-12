@@ -176,3 +176,26 @@ Add   "" between the fields in the calcultion. This ensures that there is a spac
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S38.png)
 ![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S39.png)
 
+13. Incorporate feedback. Instead of having a lot list of options for suffix. Split it so that the e,w,s,n options are another select field. 
+![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S40.png)
+![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S41.png)
+
+15. Add additiona fields to help find the door of addresses
+![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S42.png)
+
+15. Add the additiona direction field when creating the full address
+![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S43.png)
+
+
+# Survey 123
+PART 2! Use the same survey but make minor change so that the survey only takes in existing addresses. 
+
+1. Save the previous surveys xlxs file.
+2. Upload the xlxs file into a new survey.
+![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S45.png)
+3. In the formulations to make it so that instead of looking for a full address field that is blank. You want a not blank one which signals that an existing address is there.
+Simply add ! to the equation. 
+![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S47.png)
+3. Check that the formula works!
+![alt](https://github.com/MengjieDai7/GEOM99Logs/blob/main/Pictures/S46.png)
+
